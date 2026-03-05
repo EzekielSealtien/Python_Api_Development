@@ -20,6 +20,6 @@ app.add_middleware(
 )
 settings = config.Settings()
     
-app.get("/")
+@app.get("/")
 def root():
     return {"message": "Welcome to my API!"}
