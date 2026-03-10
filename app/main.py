@@ -22,4 +22,4 @@ settings = config.Settings()
     
 @app.get("/")
 def root():
-    return {"message": "Welcome to my API!"}
+    return {"message": "Welcome to my API! HAHAHA"}
